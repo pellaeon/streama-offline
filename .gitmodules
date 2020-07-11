@@ -1,0 +1,3 @@
+[submodule "streama-source"]
+	path = streama-source
+	url = https://github.com/streamaserver/streama
