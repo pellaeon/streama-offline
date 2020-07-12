@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"directive--streama-video-image.js",
+"lineCount":2,
+"mappings":"A;AAAAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,IAAA,CAA8B,CAAC,gBAAD,CAAmB,QAAQ,CAACC,CAAD,CAAiB,CACtEA,CAAAC,IAAA,CAAmB,6CAAnB,CAAkE,2WAAlE,CADsE,CAA5C,CAA9B;",
+"sources":["directive--streama-video-image.unminified.js"],
+"names":["angular","module","run","$templateCache","put"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"streama-video-image.js",
+"lineCount":2,
+"mappings":"A;AAAC,SAAQ,EAAE,CAIXA,OAAAC,OAAA,CAAe,SAAf,CAAAC,UAAA,CAAoC,mBAApC,CAAyD,CAAC,eAAD,CAAkB,cAAlB,CAAkC,YAAlC,CAAgD,cAAhD,CAAgE,QAAS,CAACC,CAAD,CAAgBC,CAAhB,CAA8BC,CAA9B,CAA0CC,CAA1C,CAAwD,CACxL,MAAO,CACLC,SAAU,GADL,CAELC,YAAa,6CAFR,CAGLC,MAAO,CACLC,MAAO,GADF,CAELC,KAAM,GAFD,CAGLC,KAAM,GAHD,CAHF,CAQLC,KAAMA,QAAS,CAACC,CAAD,CAASC,CAAT,CAAgBC,CAAhB,CAAwB,EARlC,CADiL,CAAjI,CAAzD,CAJW,CAAV,CAAD;",
+"sources":["streama-video-image.unminified.js"],
+"names":["angular","module","directive","uploadService","modalService","apiService","$stateParams","restrict","templateUrl","scope","video","type","size","link","$scope","$elem","$attrs"]
+}

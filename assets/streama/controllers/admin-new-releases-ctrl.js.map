@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"admin-new-releases-ctrl.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,sBAArC,CAA6D,CAAC,QAAD,CAAW,YAAX,CAAyB,cAAzB,CAAyC,QAAzC,CAAmD,QAAS,CAACC,CAAD,CAASC,CAAT,CAAqBC,CAArB,CAAmCC,CAAnC,CAA2C,CAEnKH,CAAAI,QAAA,CAAiB,CAAA,CAEjBH,EAAAI,aAAAC,gBAAA,EAAAC,KAAA,CAA+C,QAAS,CAACC,CAAD,CAAO,CAC9DR,CAAAS,cAAA,CAAuBD,CAAAA,KACvBR,EAAAI,QAAA,CAAiB,CAAA,CAF6C,CAA/D,CAMAJ,EAAAU,OAAA,CAAgBC,QAAS,CAACN,CAAD,CAAe,CACrCO,QAAAC,IAAA,CAAa,CAAEC,cAAe,CAAA,CAAjB,CAAuBC,OAAQ,CAACC,GAAI,KAAL,CAAYC,OAAS,QAArB,CAA/B,CAAb,CACFL,SAAAM,QAAA,CAAiB,iDAAjB,CAAoE,QAAS,CAACC,CAAD,CAAY,CACrFA,CAAH,EACClB,CAAAI,aAAAK,OAAA,CAA+BL,CAAAe,GAA/B,CAAAb,KAAA,CAAqD,QAAS,CAACC,CAAD,CAAO,CACpEa,CAAAC,OAAA,CAAStB,CAAAS,cAAT,CAA+B,CAACW,GAAIf,CAAAe,GAAL,CAA/B,CADoE,CAArE,CAFuF,CAAzF,CAFuC,CAV2H,CAAvG,CAA7D;",
+"sources":["admin-new-releases-ctrl.unminified.js"],
+"names":["angular","module","controller","$scope","apiService","modalService","$state","loading","notification","listNewReleases","then","data","notifications","delete","$scope.delete","alertify","set","buttonReverse","labels","ok","cancel","confirm","confirmed","id","_","remove"]
+}

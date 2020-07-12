@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"modal-new-release-ctrl.js",
+"lineCount":3,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,qBAArC,CAA4D,CAC1D,QAD0D,CAChD,mBADgD,CAC3B,YAD2B,CACb,eADa,CACI,OADJ,CACa,MADb,CACqB,UADrB,CAE1D,QAAS,CAACC,CAAD,CAASC,CAAT,CAA4BC,CAA5B,CAAwCC,CAAxC,CAAuDC,CAAvD,CAA8DC,CAA9D,CAAoEC,CAApE,CAA8E,CACrFN,CAAAO,QAAA,CAAiB,CAAA,CACjBP,EAAAK,KAAA,CAAcA,CACdL,EAAAI,MAAA,CAAeA,CACfJ,EAAAM,SAAA,CAAkBA,CAClBN,EAAAQ,WAAA,CAAoB,CAClBC,QAASL,CAAAM,GADS,CAElBC,UAAWN,CAFO,CAMpBL,EAAAY,OAAA,CAAgBC,QAAS,EAAG,CAC1BZ,CAAAa,QAAA,CAA0B,QAA1B,CAD0B,CAK5Bd,EAAAe,KAAA,CAAcC,QAAS,CAACR,CAAD,CAAa,CAClCN,CAAAe,aAAAC,qBAAA,CAA6CV,CAA7C,CAAAW,KAAA,CACQ,QAAS,EAAG,CAChBC,QAAAC,QAAA,CAAiB,qBAAjB,CACApB,EAAAqB,MAAA,EAFgB,CADpB,CAAAC,MAAA,CAKS,QAAS,CAACC,CAAD,CAAMC,CAAN,CAAc,CAC5BC,OAAAC,IAAA,CAAY,UAAZ,CAAwB,oEAAxB,CACAP;QAAAG,MAAA,CAAeC,CAAAI,QAAf,CAF4B,CALhC,CADkC,CAhBiD,CAF7B,CAA5D;",
+"sources":["modal-new-release-ctrl.unminified.js"],
+"names":["angular","module","controller","$scope","$uibModalInstance","apiService","uploadService","media","type","episodes","loading","newRelease","mediaId","id","mediaType","cancel","$scope.cancel","dismiss","save","$scope.save","notification","highlightOnDashboard","then","alertify","success","close","error","err","status","console","log","message"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"user-service.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,QAAA,CAAkC,aAAlC,CAAiD,CAAC,YAAD,CAAe,YAAf,CAA6B,QAAS,CAACC,CAAD,CAAaC,CAAb,CAAyB,CAC/G,MAAO,CACNC,eAAgBA,QAAS,CAACC,CAAD,CAAO,CAC/BH,CAAAI,YAAA,CAAyBD,CADM,CAD1B,CADwG,CAA/D,CAAjD;",
+"sources":["user-service.unminified.js"],
+"names":["angular","module","factory","$rootScope","$translate","setCurrentUser","data","currentUser"]
+}

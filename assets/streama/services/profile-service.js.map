@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"profile-service.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,QAAA,CAAkC,gBAAlC,CAAoD,CAAC,qBAAD,CAAwB,YAAxB,CAAsC,QAAtC,CAAgD,YAAhD,CAA8D,YAA9D,CAA4E,QAAS,CAACC,CAAD,CAAsBC,CAAtB,CAAkCC,CAAlC,CAA0CC,CAA1C,CAAsDC,CAAtD,CAAkE,CAiBzM,MAAO,CACLC,kBAhBFA,QAA0B,CAACC,CAAD,CAAU,CAClCN,CAAAO,IAAA,CAAwB,gBAAxB,CAA0CD,CAA1C,CACAH,EAAAK,eAAA,CAA4BF,CAC5BJ,EAAAO,GAAA,CAAU,MAAV,CAAkB,EAAlB,CAAsB,CAACC,OAAQ,CAAA,CAAT,CAAtB,CACAN,EAAAO,IAAA,CAAeC,CAAAC,IAAA,CAAMV,CAAN,CAAkB,gCAAlB,CAAf,EAAsES,CAAAC,IAAA,CAAMV,CAAN,CAAkB,sBAAlB,CAAtE,EAAmH,IAAnH,CAJkC,CAe7B,CAELW,kBAVFA,QAA0B,EAAG,CACzB,MAAOd,EAAAa,IAAA,CAAwB,gBAAxB,CAAP,EAAoD,IAD3B,CAQtB,CAGLE,gBAPFA,QAAwB,EAAG,CACzB,MAAOd,EAAAK,QAAAS,gBAAA,EADkB,CAIpB,CAjBkM,CAAvJ,CAApD;",
+"sources":["profile-service.unminified.js"],
+"names":["angular","module","factory","localStorageService","apiService","$state","$rootScope","$translate","setCurrentProfile","profile","set","currentProfile","go","reload","use","_","get","getCurrentProfile","getUserProfiles"]
+}

@@ -1,0 +1,2 @@
+//# sourceMappingURL=uisOwlCarousel.js.map
+(function(){function a(a){return{restrict:"A",link:function(c,b,d){a(function(){$(b).addClass("owl-carousel owl-theme").owlCarousel({loop:!0,items:1,dots:!0,autoplay:!0,autoplaySpeed:1E3})},10)}}}angular.module("systaro.core").directive("uisOwlCarousel",a);a.$inject=["$timeout"]})();

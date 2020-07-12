@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"settings-ctrl.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,cAArC,CAAqD,CAAC,QAAD,CAAW,YAAX,CAAyB,cAAzB,CAAyC,YAAzC,CAAuD,QAAS,CAACC,CAAD,CAASC,CAAT,CAAqBC,CAArB,CAAmCC,CAAnC,CAA+C,EAA/G,CAArD;",
+"sources":["settings-ctrl.unminified.js"],
+"names":["angular","module","controller","$scope","apiService","modalService","$rootScope"]
+}

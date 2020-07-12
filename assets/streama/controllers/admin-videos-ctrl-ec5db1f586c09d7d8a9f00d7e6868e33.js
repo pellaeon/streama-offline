@@ -1,0 +1,3 @@
+//# sourceMappingURL=admin-videos-ctrl.js.map
+angular.module("streama").controller("adminVideosCtrl",["$scope","apiService","modalService","$state",function(b,e,d,f){b.loading=!0;e.genericVideo.list().then(function(a){b.videos=a.data;b.loading=!1});b.openGenericVideoModal=function(){d.genericVideoModal(null,function(a){f.go("admin.video",{videoId:a.id})})};b.addFromSuggested=function(a,d){var c=angular.copy(a),g=c.id;delete c.id;c.apiId=g;e.movie.save(c).then(function(a){d?f.go("admin.movie",{movieId:a.data.id}):b.movies.push(a.data)})};b.alreadyAdded=
+function(a){console.log("%c movie","color: deeppink; font-weight: bold; text-shadow: 0 0 5px deeppink;",a);return a.id&&_.find(b.movies,{apiId:a.id.toString()})}}]);

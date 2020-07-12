@@ -1,0 +1,2 @@
+//# sourceMappingURL=player.js.map
+angular.module("streama").run(["$templateCache",function(a){a.put("/streama/player.htm",'<div class="player-wrapper"> <streama-video-player options="videoOptions" ng-if="videoOptions.videoSrc"> </streama-video-player> </div>')}]);

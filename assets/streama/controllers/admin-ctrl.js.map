@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"admin-ctrl.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,WAArC,CAAkD,CAAC,QAAD,CAAW,YAAX,CAAyB,cAAzB,CAAyC,YAAzC,CAAuD,QAAS,CAACC,CAAD,CAASC,CAAT,CAAqBC,CAArB,CAAmCC,CAAnC,CAA+C,EAA/G,CAAlD;",
+"sources":["admin-ctrl.unminified.js"],
+"names":["angular","module","controller","$scope","apiService","modalService","$rootScope"]
+}

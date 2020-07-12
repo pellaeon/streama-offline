@@ -1,0 +1,2 @@
+//# sourceMappingURL=help-ctrl.js.map
+angular.module("streama").controller("helpCtrl",["$anchorScroll","$location","$scope",function(c,b,a){a.gotoAnchor=function(a){var d="question"+a;b.hash()!==d?b.hash("question"+a):c()};a.questions="UPLOAD_VIDEO DELETE_VIDEO VIDEO_FORMATS SUBTITLES INVITE_USERS BASE_URL NOTIFICATIONS VIDEO_PLAYER_SHORTCUTS FAVORITE_GENRES USEFUL_LINKS".split(" ")}]);

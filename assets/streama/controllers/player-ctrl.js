@@ -1,0 +1,2 @@
+//# sourceMappingURL=player-ctrl.js.map
+angular.module("streama").controller("playerCtrl",["$scope","apiService","$stateParams","playerService","$rootScope",function(a,e,f,b,d){e.video.get(f.videoId).then(function(g){a.video=g.data;b.handleMissingFileError(a.video)||(a.videoOptions=b.setVideoOptions(a.video,d.settings));b.registerSocketListener()});d.$on("$stateChangeStart",function(a,c){"player"!=c.name&&b.destroyPlayer()});a.$on("playerSession",function(a,c){b.handleSocketEvent(c)})}]);

@@ -1,0 +1,3 @@
+//# sourceMappingURL=streama.core.js.map
+(function(){function a(b){b.defaults.headers.common["X-Requested-With"]="XMLHttpRequest";b.interceptors.push(d)}function d(b){return{request:function(c){0==!c.url.indexOf("/")&&b&&(c.url=b+"/"+c.url);return c}}}angular.module("streama.core",["ngResource"]).constant("contextPath",window.contextPath).config(a);a.$inject=["$httpProvider"];d.$inject=["contextPath"]})();
+(function(){function a(a){return function(b,c,f,g){var e={update:{method:"PUT"},list:{method:"GET",isArray:!0}};angular.extend(e,f);return a(b,c||null,e,g||{})}}angular.module("streama.core").factory("DomainServiceFactory",a);a.$inject=["$resource"]})();

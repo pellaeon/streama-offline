@@ -1,0 +1,2 @@
+//# sourceMappingURL=profile-service.js.map
+angular.module("streama").factory("profileService",["localStorageService","apiService","$state","$rootScope","$translate",function(b,d,e,a,f){return{setCurrentProfile:function(c){b.set("currentProfile",c);a.currentProfile=c;e.go("dash",{},{reload:!0});f.use(_.get(a,"currentProfile.profileLanguage")||_.get(a,"currentUser.language")||"en")},getCurrentProfile:function(){return b.get("currentProfile")||null},getUserProfiles:function(){return d.profile.getUserProfiles()}}}]);

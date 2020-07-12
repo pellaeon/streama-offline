@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"streama-progress-bar.js",
+"lineCount":2,
+"mappings":"A;AAAC,SAAQ,EAAE,CAIXA,OAAAC,OAAA,CAAe,SAAf,CAAAC,UAAA,CAAoC,oBAApC,CAA0D,QAAS,EAAG,CACpE,MAAO,CACLC,SAAU,GADL,CAELC,YAAa,8CAFR,CAGLC,MAAO,CACLC,MAAO,GADF,CAELC,SAAU,GAFL,CAHF,CAOLC,KAAMA,QAAS,CAACC,CAAD,CAASC,CAAT,CAAgBC,CAAhB,CAAwB,EAPlC,CAD6D,CAAtE,CAJW,CAAV,CAAD;",
+"sources":["streama-progress-bar.unminified.js"],
+"names":["angular","module","directive","restrict","templateUrl","scope","video","hideTime","link","$scope","$elem","$attrs"]
+}

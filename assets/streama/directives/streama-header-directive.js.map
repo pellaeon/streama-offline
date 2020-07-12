@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"streama-header-directive.js",
+"lineCount":2,
+"mappings":"A;AAAC,SAAQ,EAAE,CAQXA,QAASA,EAAsB,CAACC,CAAD,CAAU,CACvC,MAAO,CACLC,SAAU,GADL,CAELC,MAAO,EAFF,CAGLC,KAAMA,QAAS,CAACC,CAAD,CAASC,CAAT,CAAgBC,CAAhB,CAAwB,CACrCC,OAAAC,QAAA,CAAgBR,CAAhB,CAAAS,KAAA,CAA8B,QAA9B,CAAwC,QAAS,EAAG,CACzB,CAAzB,CAAGT,CAAAU,YAAH,CACEL,CAAAM,IAAA,CAAU,CAAC,WAAc,iBAAf,CAAV,CADF,CAGEN,CAAAM,IAAA,CAAU,CAAC,WAAc,0DAAf,CAAV,CAJgD,CAApD,CADqC,CAHlC,CADgC,CAHzCJ,OAAAK,OAAA,CAAe,SAAf,CAAAC,UAAA,CACa,wBADb,CACuCd,CADvC,CAkBAA,EAAAe,QAAA,CAAiC,CAAC,SAAD,CAvBtB,CAAV,CAAD;",
+"sources":["streama-header-directive.unminified.js"],
+"names":["streamaHeaderDirective","$window","restrict","scope","link","$scope","$elem","$attrs","angular","element","bind","pageYOffset","css","module","directive","$inject"]
+}

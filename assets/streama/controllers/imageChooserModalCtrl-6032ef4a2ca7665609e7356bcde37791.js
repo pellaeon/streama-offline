@@ -1,0 +1,2 @@
+//# sourceMappingURL=imageChooserModalCtrl.js.map
+(function(){function b(b,c,d){var a=this;a.mediaType=c.mediaType;a.media=c.media;a.imagesForMedia=[];a.chooseImage=function(e){a.media.backdrop_path=e.file_path;b.close()};a.close=b.close;(function(){d.theMovieDb.imagesForMedia({type:a.mediaType,apiId:a.media.apiId}).then(function(b){a.imagesForMedia=b.data})})()}angular.module("streama").controller("imageChooserModalCtrl",b);b.$inject=["$uibModalInstance","dialogOptions","apiService"]})();

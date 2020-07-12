@@ -1,0 +1,2 @@
+//# sourceMappingURL=streama-progress-bar.js.map
+(function(){angular.module("streama").directive("streamaProgressBar",function(){return{restrict:"E",templateUrl:"/streama/directive--streama-progress-bar.htm",scope:{video:"=",hideTime:"@"},link:function(a,b,c){}}})})();

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"admin-video.js",
+"lineCount":2,
+"mappings":"A;AAAAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,IAAA,CAA8B,CAAC,gBAAD,CAAmB,QAAQ,CAACC,CAAD,CAAiB,CACtEA,CAAAC,IAAA,CAAmB,0BAAnB,CAA+C,ygGAA/C,CADsE,CAA5C,CAA9B;",
+"sources":["admin-video.unminified.js"],
+"names":["angular","module","run","$templateCache","put"]
+}

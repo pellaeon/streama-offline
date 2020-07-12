@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"help-ctrl.js",
+"lineCount":2,
+"mappings":"A;AACAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,UAArC,CAAiD,CAAC,eAAD,CAAkB,WAAlB,CAA+B,QAA/B,CAC/C,QAAS,CAACC,CAAD,CAAgBC,CAAhB,CAA2BC,CAA3B,CAAmC,CAG1CA,CAAAC,WAAA,CAAoBC,QAAQ,CAACC,CAAD,CAAI,CAC9B,IAAIC,EAAU,UAAVA,CAAuBD,CACvBJ,EAAAM,KAAA,EAAJ,GAAyBD,CAAzB,CAGEL,CAAAM,KAAA,CAAe,UAAf,CAA4BF,CAA5B,CAHF,CAOEL,CAAA,EAT4B,CAchCE,EAAAM,UAAA,CAAmB,2IAAA,MAAA,CAAA,GAAA,CAjBuB,CADG,CAAjD;",
+"sources":["help-ctrl.unminified.js"],
+"names":["angular","module","controller","$anchorScroll","$location","$scope","gotoAnchor","$scope.gotoAnchor","x","newHash","hash","questions"]
+}

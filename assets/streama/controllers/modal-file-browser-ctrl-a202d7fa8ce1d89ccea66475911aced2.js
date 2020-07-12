@@ -1,0 +1,2 @@
+//# sourceMappingURL=modal-file-browser-ctrl.js.map
+angular.module("streama").controller("modalFileBrowserCtrl",["$scope","$uibModalInstance","apiService",function(a,c,d){a.loading=!0;d.video.listAllFiles().then(function(b){b=b.data;a.loading=!1;a.files=b},function(){alertify.error("Failed to load the list of files.")});a.chooseFile=function(a){c.close(a)};a.cancel=function(){c.dismiss("cancel")}}]);

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"modal-file-browser-ctrl.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,sBAArC,CAA6D,CAC5D,QAD4D,CAClD,mBADkD,CAC7B,YAD6B,CAE5D,QAAS,CAACC,CAAD,CAASC,CAAT,CAA4BC,CAA5B,CAAwC,CAChDF,CAAAG,QAAA,CAAiB,CAAA,CAEjBD,EAAAE,MAAAC,aAAA,EAAAC,KAAA,CAAqC,QAAS,CAACC,CAAD,CAAW,CACnDC,CAAAA,CAAOD,CAAAC,KACXR,EAAAG,QAAA,CAAiB,CAAA,CACjBH,EAAAS,MAAA,CAAeD,CAHwC,CAAzD,CAII,QAAS,EAAG,CACdE,QAAAC,MAAA,CAAe,mCAAf,CADc,CAJhB,CAQAX,EAAAY,WAAA,CAAoBC,QAAS,CAACC,CAAD,CAAO,CACnCb,CAAAc,MAAA,CAAwBD,CAAxB,CADmC,CAKpCd,EAAAgB,OAAA,CAAgBC,QAAS,EAAG,CAC3BhB,CAAAiB,QAAA,CAA0B,QAA1B,CAD2B,CAhBoB,CAFW,CAA7D;",
+"sources":["modal-file-browser-ctrl.unminified.js"],
+"names":["angular","module","controller","$scope","$uibModalInstance","apiService","loading","video","listAllFiles","then","response","data","files","alertify","error","chooseFile","$scope.chooseFile","file","close","cancel","$scope.cancel","dismiss"]
+}

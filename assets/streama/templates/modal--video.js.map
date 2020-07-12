@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"modal--video.js",
+"lineCount":2,
+"mappings":"A;AAAAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,IAAA,CAA8B,CAAC,gBAAD,CAAmB,QAAQ,CAACC,CAAD,CAAiB,CACtEA,CAAAC,IAAA,CAAmB,2BAAnB,CAAgD,gmIAAhD,CADsE,CAA5C,CAA9B;",
+"sources":["modal--video.unminified.js"],
+"names":["angular","module","run","$templateCache","put"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"player-ctrl.js",
+"lineCount":2,
+"mappings":"A;AAEAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,WAAA,CAAqC,YAArC,CAAmD,CAClD,QADkD,CACxC,YADwC,CAC1B,cAD0B,CACV,eADU,CACO,YADP,CAElD,QAAS,CAACC,CAAD,CAASC,CAAT,CAAqBC,CAArB,CAAmCC,CAAnC,CAAkDC,CAAlD,CAA8D,CAEtEH,CAAAI,MAAAC,IAAA,CAAqBJ,CAAAK,QAArB,CAAAC,KAAA,CAAgD,QAAS,CAACC,CAAD,CAAW,CACnET,CAAAK,MAAA,CAAeI,CAAAC,KAEQP,EAAAQ,uBAAAC,CAAqCZ,CAAAK,MAArCO,CAEvB,GACCZ,CAAAa,aADD,CACuBV,CAAAW,gBAAA,CAA8Bd,CAAAK,MAA9B,CAA4CD,CAAAW,SAA5C,CADvB,CAIAZ,EAAAa,uBAAA,EATmE,CAApE,CAaAZ,EAAAa,IAAA,CAAe,mBAAf,CAAoC,QAAQ,CAACC,CAAD,CAAIC,CAAJ,CAAY,CACpC,QAAnB,EAAGA,CAAAC,KAAH,EACCjB,CAAAkB,cAAA,EAFsD,CAAxD,CAMArB,EAAAiB,IAAA,CAAW,eAAX,CAA4B,QAAS,CAACC,CAAD,CAAIR,CAAJ,CAAU,CAC9CP,CAAAmB,kBAAA,CAAgCZ,CAAhC,CAD8C,CAA/C,CArBsE,CAFrB,CAAnD;",
+"sources":["player-ctrl.unminified.js"],
+"names":["angular","module","controller","$scope","apiService","$stateParams","playerService","$rootScope","video","get","videoId","then","response","data","handleMissingFileError","missingFileError","videoOptions","setVideoOptions","settings","registerSocketListener","$on","e","toState","name","destroyPlayer","handleSocketEvent"]
+}

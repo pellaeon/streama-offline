@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"admin-show.js",
+"lineCount":2,
+"mappings":"A;AAAAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,IAAA,CAA8B,CAAC,gBAAD,CAAmB,QAAQ,CAACC,CAAD,CAAiB,CACtEA,CAAAC,IAAA,CAAmB,yBAAnB,CAA8C,8kIAA9C,CADsE,CAA5C,CAA9B;",
+"sources":["admin-show.unminified.js"],
+"names":["angular","module","run","$templateCache","put"]
+}

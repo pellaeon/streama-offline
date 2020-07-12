@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"settings.js",
+"lineCount":2,
+"mappings":"A;AAAAA,OAAAC,OAAA,CAAe,SAAf,CAAAC,IAAA,CAA8B,CAAC,gBAAD,CAAmB,QAAQ,CAACC,CAAD,CAAiB,CACtEA,CAAAC,IAAA,CAAmB,uBAAnB,CAA4C,0jBAA5C,CADsE,CAA5C,CAA9B;",
+"sources":["settings.unminified.js"],
+"names":["angular","module","run","$templateCache","put"]
+}

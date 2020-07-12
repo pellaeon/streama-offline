@@ -1,0 +1,2 @@
+//# sourceMappingURL=video-time-format-directive.js.map
+angular.module("streama").directive("videoTimeFormat",function(){return{restrict:"A",require:"ngModel",link:function(f,e,g,b){var d;b.$parsers.push(function(a){a=a.split(":");return d=3600*(3<=a.length?a[a.length-3]:0)+60*(2<=a.length?a[a.length-2]:0)+1*a[a.length-1]});b.$formatters.push(function(a){if(void 0==a)return"";d=a;var c,b=Math.floor(a/3600);c=a%3600;a=Math.floor(c/60);c%=60;return _.padStart(b,2,"0")+":"+_.padStart(a,2,"0")+":"+_.padStart(c,2,"0")});e.blur(function(a){b.$processModelValue()})}}});

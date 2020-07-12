@@ -1,0 +1,3 @@
+//# sourceMappingURL=modal-new-release-ctrl.js.map
+angular.module("streama").controller("modalNewReleaseCtrl",["$scope","$uibModalInstance","apiService","uploadService","media","type","episodes",function(a,b,e,g,c,d,f){a.loading=!1;a.type=d;a.media=c;a.episodes=f;a.newRelease={mediaId:c.id,mediaType:d};a.cancel=function(){b.dismiss("cancel")};a.save=function(a){e.notification.highlightOnDashboard(a).then(function(){alertify.success("Highlight complete.");b.close()}).error(function(a,b){console.log("%c error","color: deeppink; font-weight: bold; text-shadow: 0 0 5px deeppink;");
+alertify.error(a.message)})}}]);

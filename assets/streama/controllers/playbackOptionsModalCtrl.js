@@ -1,0 +1,3 @@
+//# sourceMappingURL=playbackOptionsModalCtrl.js.map
+(function(){function c(c,d,e){var a=this;a.playerOptions=_.clone(d.playerOptions);a.selectVideoFile=function(b){a.playerOptions.selectedVideoFile=b};a.changeSubtitleSize=function(b){a.playerOptions.subtitleSize=b};a.isVideoFileSelected=function(b){return _.get(a.playerOptions,"selectedVideoFile.id")===_.get(b,"id")};a.selectSubtitle=function(b){a.playerOptions.selectedSubtitle=b};a.isSubtitleSelected=function(b){return _.get(a.playerOptions,"selectedSubtitle.id")===_.get(b,"id")};a.submit=function(){c.close(a.playerOptions)};
+a.close=c.close}angular.module("streama").controller("playbackOptionsModalCtrl",c);c.$inject=["$uibModalInstance","dialogOptions","apiService"]})();

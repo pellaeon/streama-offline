@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"uisOwlCarousel.js",
+"lineCount":2,
+"mappings":"A;AAAC,SAAQ,EAAE,CAQXA,QAASA,EAAc,CAACC,CAAD,CAAW,CAMjC,MALgBC,CACfC,SAAU,GADKD,CAEfE,KAMDA,QAAa,CAACC,CAAD,CAASC,CAAT,CAAgBC,CAAhB,CAAuB,CACnCN,CAAA,CAAS,QAAS,EAAG,CACpBO,CAAA,CAAEF,CAAF,CAAAG,SAAA,CACW,wBADX,CAAAC,YAAA,CAEc,CACZC,KAAM,CAAA,CADM,CAEZC,MAAO,CAFK,CAGZC,KAAM,CAAA,CAHM,CAIZC,SAAU,CAAA,CAJE,CAKZC,cAAe,GALH,CAFd,CADoB,CAArB,CAUG,EAVH,CADmC,CARpBb,CADiB,CAJlCc,OAAAC,OAAA,CACS,cADT,CAAAf,UAAA,CAEY,gBAFZ,CAE8BF,CAF9B,CA2BAA,EAAAkB,QAAA,CAAyB,CAAC,UAAD,CA/Bd,CAAV,CAAD;",
+"sources":["uisOwlCarousel.unminified.js"],
+"names":["uisOwlCarousel","$timeout","directive","restrict","link","$scope","$elem","$attr","$","addClass","owlCarousel","loop","items","dots","autoplay","autoplaySpeed","angular","module","$inject"]
+}

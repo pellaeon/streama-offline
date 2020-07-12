@@ -1,0 +1,2 @@
+//# sourceMappingURL=streama-video-image.js.map
+(function(){angular.module("streama").directive("streamaVideoImage",["uploadService","modalService","apiService","$stateParams",function(a,b,c,d){return{restrict:"E",templateUrl:"/streama/directive--streama-video-image.htm",scope:{video:"=",type:"@",size:"@"},link:function(a,b,c){}}}])})();

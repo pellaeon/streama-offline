@@ -1,0 +1,2 @@
+//# sourceMappingURL=streama-header-directive.js.map
+(function(){function a(a){return{restrict:"A",scope:{},link:function(c,b,d){angular.element(a).bind("scroll",function(){0<a.pageYOffset?b.css({background:"rgb(20, 20, 20)"}):b.css({background:"linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))"})})}}}angular.module("streama").directive("streamaHeaderDirective",a);a.$inject=["$window"]})();
